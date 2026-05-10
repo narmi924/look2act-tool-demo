@@ -1,0 +1,17 @@
+{
+  "session_id": "session_demo_001",
+  "participant_id_anonymized": "participant_anon_001",
+  "device_id_anonymized": "device_anon_001",
+  "screen_resolution": {
+    "width_px": 1920,
+    "height_px": 1080
+  },
+  "camera_resolution": {
+    "width_px": 1280,
+    "height_px": 720
+  },
+  "calibration_layout": "5x5",
+  "target_count": 25,
+  "collection_notes": "Synthetic metadata example for schema illustration only.",
+  "privacy_note": "This file contains no real participant data, raw image paths, or device identifiers."
+}

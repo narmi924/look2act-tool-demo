@@ -1,0 +1,17 @@
+field_name,type,description
+frame_id,string,An anonymized frame identifier within a session.
+timestamp_ms,integer,Milliseconds from the start of the collection or demonstration session.
+target_id,string,Identifier of the displayed target point or interaction target.
+target_x_px,number,Target x coordinate in screen pixels.
+target_y_px,number,Target y coordinate in screen pixels.
+screen_width_px,integer,Screen width in pixels.
+screen_height_px,integer,Screen height in pixels.
+face_valid,boolean,Whether face or landmark detection was valid for the frame.
+eye_crop_valid,boolean,Whether eye crops were available for the frame.
+yaw,number,Estimated head yaw in degrees or a documented equivalent convention.
+pitch,number,Estimated head pitch in degrees or a documented equivalent convention.
+roll,number,Estimated head roll in degrees or a documented equivalent convention.
+brightness,number,Illustrative brightness statistic for quality checking.
+device_id_anonymized,string,An anonymized device identifier.
+glasses_flag,string,Illustrative glasses condition such as unknown yes or no.
+image_path_placeholder,string,Placeholder path token only; raw image paths are not included.

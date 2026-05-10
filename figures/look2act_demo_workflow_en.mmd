@@ -1,0 +1,25 @@
+%%{init: {"theme": "base", "themeVariables": {"fontFamily": "Arial, sans-serif", "primaryColor": "#FFFFFF", "primaryTextColor": "#20242B", "primaryBorderColor": "#3B6E9E", "lineColor": "#5C6675", "tertiaryColor": "#F6F8FB"}}}%%
+flowchart TD
+    Launch["1. Launch and mode selection<br/>Choose English UI and select Classic or Deep mode."]
+    Preview["2. Camera preview<br/>Check webcam view, face detection, and eye crop status."]
+    Calib["3. 25-point calibration<br/>Collect target observations and save local calibration."]
+    Tracking["4. Real-time gaze tracking<br/>Show FPS, face status, calibration status, and gaze output."]
+    Validation["5. Fullscreen validation<br/>Inspect calibrated gaze behavior on the full screen."]
+    Dwell["6. 3x3 dwell-based interaction page<br/>Trigger large-target interaction through gaze dwell."]
+    Artifact["7. Artifact walkthrough<br/>Review documentation, schemas, sample logs, figures, and release boundary."]
+
+    Launch --> Preview --> Calib --> Tracking --> Validation --> Dwell --> Artifact
+
+    classDef entry fill:#FFFFFF,stroke:#3B6E9E,stroke-width:2px,color:#20242B;
+    classDef vision fill:#FFFFFF,stroke:#2F8F8A,stroke-width:2px,color:#20242B;
+    classDef mapping fill:#FFFFFF,stroke:#B9903D,stroke-width:2px,color:#20242B;
+    classDef backend fill:#FFFFFF,stroke:#7A659E,stroke-width:2px,color:#20242B;
+    classDef interaction fill:#FFFFFF,stroke:#3C8D57,stroke-width:2px,color:#20242B;
+    classDef docs fill:#FFFFFF,stroke:#5C6675,stroke-width:2px,color:#20242B;
+
+    class Launch entry;
+    class Preview vision;
+    class Calib mapping;
+    class Tracking backend;
+    class Validation,Dwell interaction;
+    class Artifact docs;

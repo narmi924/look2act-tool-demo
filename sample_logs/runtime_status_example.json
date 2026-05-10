@@ -1,0 +1,13 @@
+{
+  "mode": "Classic",
+  "fps": 28.6,
+  "face_detected": true,
+  "calibration_loaded": true,
+  "smoothing_enabled": true,
+  "current_gaze_point_placeholder": {
+    "x_px": 960,
+    "y_px": 540
+  },
+  "warning_placeholder": null,
+  "privacy_note": "Synthetic runtime status example only."
+}

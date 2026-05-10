@@ -1,0 +1,17 @@
+{
+  "calibration_type": "25-point",
+  "mapping_type": "polynomial",
+  "sample_count": 25,
+  "valid_points": 25,
+  "raw_point_example": {
+    "x_px": 812.4,
+    "y_px": 438.7
+  },
+  "target_point_example": {
+    "x_px": 960,
+    "y_px": 540
+  },
+  "mean_residual_px_example": 83.2,
+  "timestamp_placeholder": "YYYY-MM-DDTHH:MM:SSZ",
+  "privacy_note": "Synthetic example values only. This is not a participant calibration log."
+}
