@@ -1,4 +1,18 @@
+<div align="center">
+
+<img src="../bin/5-10/Look2Act_Tracke_ico.png" alt="Look2Act icon" width="112" />
+
 # Look2Act
+
+**Webcam-based gaze visualization and gaze-driven interaction prototyping**
+
+[![Platform](https://img.shields.io/badge/Platform-Windows%20Desktop-2F6FED)](#current-artifact-contents)
+[![Input](https://img.shields.io/badge/Input-Standard%20Webcam-2F8F8A)](#what-look2act-demonstrates)
+[![Modes](https://img.shields.io/badge/Modes-Classic%20%2F%20Deep-7A659E)](#demonstration-workflow)
+[![Privacy](https://img.shields.io/badge/Privacy-Local--first-3C8D57)](#privacy-and-security-summary)
+[![Artifact](https://img.shields.io/badge/Artifact-Internetware%202026-B9903D)](#repository-guide)
+
+</div>
 
 Look2Act is a Windows desktop tool for webcam-based gaze visualization and gaze-driven interaction prototyping. This repository provides the public demonstration artifact for the Internetware 2026 Tool Demonstration submission. It is not a source-code release.
 
