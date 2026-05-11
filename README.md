@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="../bin/5-10/Look2Act_Tracke_ico.png" alt="Look2Act icon" width="112" />
+<img src="figures/look2act-icon.png" alt="Look2Act icon" width="112" />
 
 # Look2Act
 
