@@ -102,7 +102,7 @@ The full dataset is not public because it contains real users' eye-region images
 ## Links
 
 - Paper: Internetware 2026 submission paper
-- Screencast: video is currently being prepared; the link will be updated soon.
+- Screencast: (https://drive.google.com/file/d/1DjjuPsoB7M3zJUS3Ohix-e2r6DbhTU0c/view?usp=sharing).
 - Screenshots: see [screenshots/](screenshots/)
 - Windows demonstration package: not included in the initial submission artifact
 
